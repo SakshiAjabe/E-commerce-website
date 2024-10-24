@@ -1,0 +1,47 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+}
+
+.popular h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.popular hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #252525;
+}
+
+.popular-item {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;         /* Allows items to wrap onto new lines */
+  gap: 30px;               /* Adds space between items */
+  justify-content: center; /* Centers items in the container */
+  width: 100%;             /* Full container width */
+}
+
+.item {
+  flex: 1 1 200px;         /* Flex-grow: 1, Flex-shrink: 1, Base width: 200px */
+  max-width: 200px;        /* Set max-width for responsiveness */
+  margin: 10px;            /* Space between items */
+  padding: 10px;           /* Internal padding */
+  background-color: #f0f0f0; /* Light background for visibility */
+  text-align: center;      /* Centers text inside the item */
+  box-sizing: border-box;  /* Ensures padding/border are included in the size */
+}
+
+.item img {
+  width: 100%;             /* Image takes the full width of the item */
+  height: auto;            /* Maintains aspect ratio */
+  object-fit: cover;       /* Ensures image fits its container */
+  border-radius: 10px;     /* Adds rounded corners to the image */
+}

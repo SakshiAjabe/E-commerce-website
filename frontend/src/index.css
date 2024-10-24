@@ -1,0 +1,50 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+               'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark text color */
+  line-height: 1.6; /* Improve readability */
+  font-famiy: 'poppins';
+}
+
+/* App container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+}
+
+/* Button styles (example) */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+/* Additional styles can be added as needed */

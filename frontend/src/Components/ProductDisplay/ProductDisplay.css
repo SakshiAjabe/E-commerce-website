@@ -1,0 +1,153 @@
+.productdisplay-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  padding: 20px; /* Add padding around the container */
+  margin: auto; /* Center the container on the page */
+  max-width: 1200px; /* Set a maximum width for the container */
+}
+
+.productdisplay {
+  display: flex;
+  gap: 40px; /* Space between left and right sections */
+  align-items: center; /* Center the sections vertically */
+  justify-content: center; /* Center the sections horizontally */
+  min-height: 500px; /* Ensure sufficient height */
+}
+
+.productdisplay-left {
+  display: flex;
+  align-items: flex-start; /* Align small images and main image at the start */
+  justify-content: center;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  gap: 16px; /* Space between thumbnails */
+  align-items: center; /* Center thumbnails horizontally */
+}
+
+.productdisplay-img-list img {
+  display: block;
+  height: 100px; /* Thumbnail height */
+  width: 100px; /* Set a fixed width for thumbnails */
+  object-fit: contain; /* Maintain aspect ratio */
+  cursor: pointer; /* Change cursor for interaction */
+}
+
+.productdisplay-img {
+  margin-left: 20px; /* Add some space between thumbnails and main image */
+}
+
+.productdisplay-main-img {
+  width: 448px; /* Fixed width for the main image */
+  height: 448px; /* Height should match the total height of small images */
+  object-fit: contain; /* Maintain aspect ratio */
+  display: block;
+
+}
+
+.productdisplay-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align all content to start (top) */
+  align-items: flex-start; /* Align content to the left */
+  max-width: 400px; /* Limit the width of the right section */
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+.productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 24px; /* Adjust font size for the product name */
+  font-weight: 700;
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+.productdisplay-right-stars {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+  color: #1c1c1c;
+  font-size: 16px;
+}
+
+.productdisplay-right-prices {
+  display: flex;
+  margin: 20px 0; /* Adjust margin */
+  gap: 30px; /* Space between old and new price */
+  font-size: 20px; /* Adjust font size for prices */
+  font-weight: 700;
+}
+
+.productdisplay-right-price-old {
+  color: #818181;
+  text-decoration: line-through;
+}
+
+.productdisplay-right-price-new {
+  color: #ff4141;
+}
+
+.productdisplay-right-description {
+  margin: 5px 0; /* Add margin for spacing */
+  color: #656565; /* Description text color */
+  font-size: 16px; /* Description font size */
+  max-width: 400px; /* Limit width for better wrapping */
+}
+
+.productdisplay-right-size h1 {
+  margin-top: 15px; /* Reduce top margin */
+  color: #656565;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+  display: flex;
+  margin: 20px 0; /* Adjust margins */
+  gap: 15px; /* Space between size options */
+}
+
+.productdisplay-right-sizes div {
+  padding: 12px 20px; /* Adjust padding */
+  background-color: #fbfbfb; /* Background color for size options */
+  border: 1px solid #ebebeb; /* Border styling */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for interaction */
+  transition: background 0.3s; /* Transition effect */
+}
+
+.productdisplay-right-sizes div:hover {
+  background-color: #eaeaea; /* Change background on hover */
+}
+
+.productdisplay-right button {
+  padding: 12px 24px; /* Adjust button padding */
+  width: 100%; /* Full-width button */
+  max-width: 200px; /* Limit max width for better appearance */
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #ff4141;
+  margin-top: 20px; /* Add margin above button */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s; /* Transition effect */
+}
+
+.productdisplay-right button:hover {
+  background: #e03e3e; /* Darker shade on hover */
+}
+
+.productdisplay-right-category {
+  margin-top: 10px;
+  font-size: 16px; /* Adjust font size */
+  text-align: left; /* Align category text to the left */
+}
+
+.productdisplay-right-category span {
+  font-weight: 600;
+}

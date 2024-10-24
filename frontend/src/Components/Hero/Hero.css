@@ -1,0 +1,72 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  display: flex;
+  justify-content: space-between; /* Space between left and right */
+  align-items: center; /* Vertically centers both sides */
+  padding: 0 50px; /* Space on left and right sides */
+  box-sizing: border-box;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Vertically center the content */
+  align-items: flex-start; /* Align text to the left */
+  gap: 20px; /* Space between each block */
+  padding-left: 100px; /* Move left content away from the edge */
+  line-height: 1.2; /* Adjust line spacing */
+}
+
+.hero-left h2 {
+  color: #090909;
+  font-size: 26px; /* Increased font size */
+  font-weight: 600;
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.hero-left p {
+  color: #171717;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-hand-icon img {
+  width: 60px; /* Smaller icon */
+}
+
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 250px;
+  height: 60px;
+  border-radius: 50px;
+  margin-top: 20px;
+  background: #ff4141;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align right image to the right */
+  align-items: center;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+  
+}
